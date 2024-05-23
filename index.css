@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html body{
+    width: 100%;
+    height: auto;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.up-icon i{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: right;
+    color: rgb(255, 0, 200);
+    background: transparent;
+    position: fixed;
+    margin-top: 90vh;
+    margin-left: 10px;
+
+}
+
+
+.site-header{
+    width: 100%;
+    height:100%;
+    margin-bottom: 1rem;
+    box-shadow: 0rem 0.25rem 0.11rem 0rem #666;
+    background:#ffff;
+    
+
+}
+.top-nav{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    background: #464444;
+    border-bottom: 1px groove red;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search{
+    padding-left: 4rem;
+    
+}
+
+.search input{
+    padding-left: 2px;
+    font-size: 1rem;
+    height: 1.8rem;
+    width: 15rem;
+    background-color: #ffffff;
+
+}
+.search button{
+    width: 5rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -15px;
+
+}
+.search i{
+    color: #000000;
+    position: relative;
+    left: -18px;
+}
+
+
+
+.top-nav ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #464444.5;
+    list-style-type:none;
+    margin-right: 5rem;
+}
+
+.top-nav ul li a{
+    margin-left: 4rem;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.2rem;
+
+}
+.top-nav ul li a:hover{
+    color:#ff7200;
+
+}
+
+.mid-nav{
+
+    padding: 0.2rem;
+    width: 100%;;
+    height: 7rem;
+    margin: 0.25rem 0.125rem;
+}
+
+.slogan{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.logo{
+    font-family: 'Tangerine', serif;
+  font-size: 3rem;
+  text-shadow: 0.25rem 0.25rem 0.25rem #aaa;
+  display: block;
+
+    
+}
+.bottum-nav{
+    padding-top: 0.2rem;
+    margin: 0%;
+    background: #333333;
+    height: 4rem;
+    border-bottom: #dd0000;
+
+}
+
+.bottum-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottum-nav ul a{
+    font-size: 1.3rem;
+    display: flex;
+    text-decoration: none;
+    padding: 1rem;
+    color: #ffff;
+    margin-bottom: 0;
+    transition: .5s ease;
+}
+
+.bottum-nav ul a:hover{
+    color: antiquewhite;
+    background: #dd0000;
+    border-radius: 50%;
+
+
+}
+
+.cantant{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    
+}
+
+.shayari{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.25rem;
+
+
+    
+}
+.shayari div{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 3rem;
+    margin-top: 1.25rem;
+    border: 1px solid black;
+    box-shadow: 2px 3px 10px black ;
+    border-radius: 2rem;
+    transition: 1s ease;
+}
+
+.shayari div:hover{
+    background: #ff7200;
+    color: black;
+    border: 1px solid #0508a8;
+    box-shadow: 2px 3px 10px rgb(255, 63, 5) ;
+    border-radius: 2rem;
+
+
+}
+.shayari p{
+    font-size: 2rem;
+    font-weight: 2rem;
+    padding: 3rem;
+
+}
+
+.shayari p:hover{
+    color: aliceblue;
+    font-weight: 19rem;
+}
+
+.guru{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background: linear-gradient(0deg, rgba(59,170,247,1) 0%, rgba(255,255,255,1) 98%);
+}
+.guru{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.guru1 samp{
+    color: #dd0000; 
+       
+}
+.guru1 h1{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+
+}
+
+.guru1 a{
+    text-decoration: none;
+    color: #ff7200;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .3s ease;
+    position: relative;
+    left: -3rem;
+    top: 2rem;
+
+}
+.guru1 a:hover{
+    color: #0508a8;
+
+}
+
+
+.guru2 {
+    position: relative;
+    right: 3rem;
+    width: 10rem;
+    height: 10rem;
+    padding: 4px;
+    margin-bottom:5rem;
+    margin-top: 5rem;
+    background-image: url(https://yt3.googleusercontent.com/Zq60xDhd6ElLAcarMJ6bzl63jAa3h397tBA_-ZvImJaK3iPHTsC884EIVroAnmzTwHaN8Y9cpg=s900-c-k-c0x00ffffff-no-rj);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 3px 5px 10px red;
+    border: 2px solid white;
+}
+.guru2:hover{
+    border: 1px solid #ff7200 ;
+    box-shadow: 3px 5px 10px purple;
+}
+
+.pyar {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 20px;
+}
+.pyar1{
+    font-size: 18px;
+    padding: 20px;
+    font-style: italic;
+
+}
+.poyar span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.love{
+    font-size: 10px;
+    font-weight: bold;
+}
+.pyar h2{
+    font-size: 20px;
+}
+.ftr{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.ftr ul{
+    list-style-type: none;
+
+}
+
+.ftr ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+.ftr ul li a:hover{
+    background-color: #000000;
+}
+.dropdown{
+    position: relative;
+    background-color:hsl(187, 100%, 28%) ;
+    height: 60px;
+    width: 100px;
+
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin: 0%;
+    padding: 0%;
+    background: #183153;
+}
+.meadia{
+    width: 30%;
+    height: 50vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.bio{
+    width: 35%;
+    height: 50vh;
+    border: wheat;
+    background:transparent;
+}
+
+.social{
+    width: 53%;
+    height: 50vh;
+    background:transparent;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    justify-content: space-evenly;
+    padding: 1rem;
+
+}
+.social a{
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    margin-right: 0.2rem;
+    font-weight: bold;
+    color: #e1e6e5;
+    text-decoration: none;
+    
+}
+.social a i{
+    font-size: 1rem ;
+    position: relative;
+    top: 0.2rem;
+    padding-bottom: 0.4rem;
+}
+
+.social .whatsapp:hover{
+    color:wheat;
+    background-color: green;
+    font-weight: bold;
+    border: 0.5px solid rgb(85, 230, 85);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px white;
+
+}
+
+.social .facebook:hover{
+    color:wheat;
+    background-color: rgb(0, 9, 128);
+    font-weight: bold;
+    border: 0.5px solid rgb(102, 104, 223);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px white;
+
+}
+
+.social .instagram:hover{
+    color:wheat;
+    background-color: #f14907;
+    font-weight: bold;
+    border: 0.5px solid rgb(42, 58, 202);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgb(243, 21, 176);
+
+}
+
+.social .telegram:hover{
+    color:wheat;
+    background-color: #00aeff;
+    font-weight: bold;
+    border: 0.5px solid rgb(87, 186, 216);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgb(153, 214, 238);
+
+}
+
+.social .youtube:hover{
+
+    color:wheat;
+    background-color: #ff0000;
+    font-weight: bold;
+    border: 0.5px solid rgb(255, 100, 100);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgb(240, 153, 153); 
+}
+
+.next{
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    position: relative;
+    bottom: 0.5rem;
+    left: 35%;
+}
+
+.next a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    border: 1px solid white;
+    background-color: #aaa;
+}
+
+.next a:active{
+    background-color: #0508a8;
+    color: wheat;
+
+}
+
+.im{
+    width: 7rem;
+    height: 7rem;
+    
+
+}
+
+.poto{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: -5px 5px 15px   rgb(235, 232, 233);
+
+}
+.bio{
+    font-size: 1.2rem;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
